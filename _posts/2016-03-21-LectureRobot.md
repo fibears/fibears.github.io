@@ -81,6 +81,8 @@ tags:
 
 ---
 
+**V1.1(2016-09-16): [第一版程序](https://github.com/fibears/LoginXMULecture/blob/master/app/LectureRobot.zip)** 
+
 **新版本(2016-03-25): 支持输出已预约的讲座信息。**
 
 
