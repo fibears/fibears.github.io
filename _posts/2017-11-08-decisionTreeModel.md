@@ -5,7 +5,7 @@ title: "机器学习之决策树"
 subtitle: "\"Introduction!\""
 date: 2017-11-08
 author: "fibears"
-header-img: "img/in-post/header/post-bg-treemodel.png"
+header-img: "img/in-post/header/post-bg-treemodel.jpg"
 tags:
 - Machine Learning
 - Tree Model
