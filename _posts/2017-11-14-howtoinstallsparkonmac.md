@@ -87,17 +87,22 @@ export PYTHONPATH=/usr/local/Cellar/apache-spark/<your_spark_version>/libexec/py
 spark-shell
 
 Welcome to
+
       ____              __
      / __/__  ___ _____/ /__
     _\ \/ _ \/ _ `/ __/  '_/
    /___/ .__/\_,_/_/ /_/\_\   version 2.2.0
       /_/
          
+         
 Using Scala version 2.11.8 (Java HotSpot(TM) 64-Bit Server VM, Java 1.8.0_101)
+
 Type in expressions to have them evaluated.
+
 Type :help for more information.
 
 scala> val s = "hello world"
+
 s: String = hello world
 
 ```
