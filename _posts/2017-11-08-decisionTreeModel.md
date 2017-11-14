@@ -127,7 +127,8 @@ from sklearn.datasets import load_iris
 iris = load_iris()
 
 # model
-clf = tree.DecisionTreeClassifier()
+clf = tree.DecisionTreeClassifier(criterion = 'entropy',max_depth=7,
+min_samples_split=20,min_samples_leaf=10)
 clf = clf.fit(iris.data, iris.target)
 
 # predict
