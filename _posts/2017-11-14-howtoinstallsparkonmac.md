@@ -41,10 +41,10 @@ Spark的安装分为几种模式，其中一种是本地运行模式，只需要
 为了利用命令行一键安装软件，我们需要安装xcode和命令行开发工具：
 
 ```
-# install xcode--open terminal and run next line code
+# 安装xcode和命令行开发工具
 xcode-select --install
 
-# click install button and continue...
+# 点击安装按钮直到安装完成...
 ```
 
 ### 安装java环境和scala
@@ -55,10 +55,10 @@ xcode-select --install
 # 更新brew版本
 brew upgrade && brew update
 
-# install java
+# 安装java
 brew install java
 
-# install scala
+# 安装scala
 brew install scala
 ```
 
@@ -67,11 +67,11 @@ brew install scala
 安装完java和scala后，我们就可以直接安装Apache-Spark了：
 
 ```
-# install spark
+# 安装spark
 brew install apache-spark
 
-# update zsh or bash conf
-# open .zshrc or .bash_profile file and add two conf information
+# 更新zsh或者Bash配置文件
+# 打开.zshrc或者.bash_profile然后添加下面两行配置信息
 export SPARK_HOME=/usr/local/Cellar/apache-spark/<your_spark_version>/libexec
 export PYTHONPATH=/usr/local/Cellar/apache-spark/<your_spark_version>/libexec/python/:$PYTHONP$
 
@@ -83,7 +83,7 @@ export PYTHONPATH=/usr/local/Cellar/apache-spark/<your_spark_version>/libexec/py
 安装完Spark后，我们用一个简单的案例来测试是否可用：
 
 ```
-# open spark shell environment
+# 启动spark交互环境
 spark-shell
 
 Welcome to
