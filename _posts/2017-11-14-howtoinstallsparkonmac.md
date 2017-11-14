@@ -24,7 +24,7 @@ Spark是基于内存计算的大数据并行计算框架，在大数据环境下
 
 linux系统有个让人蛋疼的通病——软件包依赖，幸好当前主流的两大发行版本都自带了解决方案，Red hat有yum，Ubuntu有apt-get。[Homebrew](https://brew.sh)简称brew，它是Mac OS上的软件包管理工具，能在Mac中方便的安装软件或者卸载软件。这么好用的工具安装起来也特别简单，仅仅只需要在终端中运行一行代码即可：
 
-```shell
+```
 # install
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
@@ -40,9 +40,9 @@ Spark的安装分为几种模式，其中一种是本地运行模式，只需要
 
 为了利用命令行一键安装软件，我们需要安装xcode和命令行开发工具：
 
-```shell
+```
 # install xcode
-# open terminal and run next line code
+## open terminal and run next line code
 xcode-select --install
 # click install button and continue...
 ```
@@ -51,7 +51,7 @@ xcode-select --install
 
 由于Spark的开发语言scala依赖于java环境，因此我们需要预先安装好相应的java环境
 
-```shell
+```
 # update brew for old version
 brew upgrade && brew update
 
@@ -66,7 +66,7 @@ brew install scala
 
 安装完java和scala后，我们就可以直接安装Apache-Spark了：
 
-```shell
+```
 # install spark
 brew install apache-spark
 
@@ -82,7 +82,7 @@ export PYTHONPATH=/usr/local/Cellar/apache-spark/<your_spark_version>/libexec/py
 
 安装完Spark后，我们用一个简单的案例来测试是否可用：
 
-```shell
+```
 # open spark shell environment
 spark-shell
 
