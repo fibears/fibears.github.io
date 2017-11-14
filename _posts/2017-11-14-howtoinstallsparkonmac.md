@@ -41,9 +41,9 @@ Spark的安装分为几种模式，其中一种是本地运行模式，只需要
 为了利用命令行一键安装软件，我们需要安装xcode和命令行开发工具：
 
 ```
-# install xcode
-## open terminal and run next line code
+# install xcode--open terminal and run next line code
 xcode-select --install
+
 # click install button and continue...
 ```
 
@@ -52,7 +52,7 @@ xcode-select --install
 由于Spark的开发语言scala依赖于java环境，因此我们需要预先安装好相应的java环境
 
 ```
-# update brew for old version
+# 更新brew版本
 brew upgrade && brew update
 
 # install java
