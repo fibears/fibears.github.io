@@ -101,7 +101,9 @@ Type in expressions to have them evaluated.
 
 Type :help for more information.
 
+
 scala> val s = "hello world"
+
 
 s: String = hello world
 
